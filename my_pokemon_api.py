@@ -33,7 +33,7 @@ def get_position_from_cell_id(cellid):
 def search_point(cell_id, api):
     response = {}
     # parse position
-   position = get_position_from_cell_id(cell_id)
+    position = get_position_from_cell_id(cell_id)
     # set player position on the earth
     api.set_position(*position)
     # print get maps object
