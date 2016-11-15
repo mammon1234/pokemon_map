@@ -6,9 +6,9 @@ def get_pokemons_from_db(north, south, west, east):
     # 1. Open connection
     conn = psycopg2.connect(host = "week2demo3.chvipb2vfhay.us-west-2.rds.amazonaws.com",
                             port = 5432,
-                            user = "week4demo_before",
-                            password = "week4demo_before",
-                            database = "week4demo_before")
+                            user = "week2demo3",
+                            password = "week2demo3",
+                            database = "week2demo3")
 
     # 2. Execute SQL
     with conn.cursor() as cur:
