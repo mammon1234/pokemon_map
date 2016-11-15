@@ -71,7 +71,6 @@ def scan_area(north, south, west, east, api):
     # 2. Search each point, get result from api
     work_queue = boto3.resource('sqs', region_name='us-west-2').get_queue_by_name(QueueName=SQS_QUEUE_NAME)
     for cell_id in cell_ids:
-        print cell_id
         # 3. Send request to elastic beanstalk worker server
         work_queue.send_message(MessageBody=json.dumps({"cell_id":cell_id})) 
 
