@@ -4,7 +4,7 @@ import psycopg2
 #SELECT expire,pokemon_id, latitude, longitude FROM pokemon_map WHERE longitude > -74 AND longitude < -73 AND latitude > 40 AND latitude < 41 AND expire > 1476566012000 LIMIT 100
 def get_pokemons_from_db(north, south, west, east):
     # 1. Open connection
-    conn = psycopg2.connect(host = "week4demo-before.cozbedhsxp0j.us-west-2.rds.amazonaws.com",
+    conn = psycopg2.connect(host = "week2demo3.chvipb2vfhay.us-west-2.rds.amazonaws.com",
                             port = 5432,
                             user = "week4demo_before",
                             password = "week4demo_before",
