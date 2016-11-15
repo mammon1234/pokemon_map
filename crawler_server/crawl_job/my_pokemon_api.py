@@ -17,7 +17,7 @@ from mock_pgoapi import mock_pgoapi as pgoapi
 
 log = logging.getLogger(__name__)
 
-SQS_QUEUE_NAME="awseb-e-exs8exccqz-stack-AWSEBWorkerQueue-BUP22KSEIS1V"
+SQS_QUEUE_NAME="awseb-e-yvktppctmh-stack-AWSEBWorkerQueue-12ANVPGGOMXOF"
 
 def break_down_area_to_cell(north, south, west, east):
     """ Return a list of s2 cell id """
