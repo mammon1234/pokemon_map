@@ -14,7 +14,7 @@ protobuf==3.0.0
 psycopg2==2.6.2
 pycryptodomex==3.4.2
 python-dateutil==2.5.3
-redis==2.10.5
+redis==4.4.4
 requests==2.11.1
 s2sphere==0.2.4
 s3transfer==0.1.9
